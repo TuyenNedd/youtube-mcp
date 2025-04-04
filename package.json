@@ -1,0 +1,16 @@
+{
+      "name": "youtube-mcp-server",
+      "version": "1.0.0",
+      "type": "module",
+      "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js",
+        "inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+      },
+      "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.0.0",
+        "ytdl-core": "^4.11.5",
+        "youtube-transcript": "^1.0.6",
+        "zod": "^3.22.4"
+      }
+    }
